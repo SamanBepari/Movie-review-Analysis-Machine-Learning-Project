@@ -1,0 +1,53 @@
+# ─── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ─── Virtual Environments ─────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+.env
+
+# ─── Jupyter Notebooks ────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── Streamlit ────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ─── Model & Large Data Files ─────────────────────────────
+# Uncomment the lines below if you do NOT want to track large binary files
+# *.pkl
+# *.xlsx
+# *.csv
+
+# ─── OS Files ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── IDE / Editor ─────────────────────────────────────────
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── Logs & Temp ──────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+
+# ─── Distribution / Build ─────────────────────────────────
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# ─── Coverage & Testing ───────────────────────────────────
+.coverage
+htmlcov/
+.pytest_cache/
